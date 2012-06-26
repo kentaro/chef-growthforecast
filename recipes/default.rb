@@ -5,7 +5,7 @@
 # Copyright 2012, Kentaro Kuribayashi
 #
 
-node['install_pkg'].each do |p|
+node["growthforecast"]["install_pkgs"].each do |p|
   package p
 end
 
